@@ -1,0 +1,5 @@
+Final project for CS 2804 (Advanced OO Programming with C++) written in C++. Dungeon generation, which creates a number of rooms based on the level and sets them up so that they grow reasonably from the start room and the "boss" is in the room farthest from the start room, was the work of Daniel Whatley. My work the rest: mapping the generated dungeon, command console GUI, treasure and baddies population, rules for door opening and completion.
+
+Playable at bin/Release/CaseyAdventure.exe
+
+Control your character with arrows, kill all the bad guys before you can go through the door and kill the boss. Press any key to continue to the next level.

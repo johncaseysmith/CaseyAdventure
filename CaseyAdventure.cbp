@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CaseyAdventure" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\CaseyAdventure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\CaseyAdventure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include\Dungeon.h" />
+		<Unit filename="include\Edge.h" />
+		<Unit filename="include\EdgeList.h" />
+		<Unit filename="include\EdgeVisitedList.h" />
+		<Unit filename="include\Game.h" />
+		<Unit filename="include\Room.h" />
+		<Unit filename="include\Vertex.h" />
+		<Unit filename="include\block.h" />
+		<Unit filename="include\io.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="include\monster.h" />
+		<Unit filename="include\player.h" />
+		<Unit filename="include\princess.h" />
+		<Unit filename="include\treasure.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src\Dungeon.cpp" />
+		<Unit filename="src\Edge.cpp" />
+		<Unit filename="src\EdgeList.cpp" />
+		<Unit filename="src\EdgeVisitedList.cpp" />
+		<Unit filename="src\Game.cpp" />
+		<Unit filename="src\Room.cpp" />
+		<Unit filename="src\Vertex.cpp" />
+		<Unit filename="src\block.cpp" />
+		<Unit filename="src\io.cpp" />
+		<Unit filename="src\monster.cpp" />
+		<Unit filename="src\player.cpp" />
+		<Unit filename="src\princess.cpp" />
+		<Unit filename="src\treasure.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
